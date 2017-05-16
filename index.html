@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Học bootstrap</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="public/bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="public/bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" 
+                    data-toggle="collapse" data-target="#navbar" 
+                    aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Project name</a>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Hello, world!</h1>
+            <p>...</p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 col-md-push-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Tốp 10 bài viết
+                    </div>
+                    <div class="panel-footer">Panel footer</div>
+                </div>
+            </div>
+
+            <div class="col-md-8 col-md-pull-4">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Bài viết
+                    </div>
+                    <div class="panel-footer">Panel footer</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="public/bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="public/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
